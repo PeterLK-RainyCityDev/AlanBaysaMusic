@@ -1,0 +1,54 @@
+/*Alan Baysa Music Styles*/
+
+/* CSS Document */
+
+
+
+/*Start of Desktop*/
+@media only screen and (min-width:769px){
+#image-slider{
+	box-shadow:0 0 8px 2px rgba(0,0,0,2);
+	text-align:center;
+	width:60%;
+	margin:125px auto 0 auto;}
+	
+#image-slider img{
+	max-width:100%;
+
+	}
+	
+
+}
+
+/*################################################################################################################################*/
+
+@media only screen and (min-width:481px) and (max-width:768px){
+#image-slider{
+	box-shadow:0 0 8px 2px rgba(0,0,0,2);
+	text-align:center;
+	width:80%;
+	margin:100px auto 0 auto;}
+	
+#image-slider img{
+	max-width:100%;
+
+	}
+
+	
+	}
+	
+@media only screen and (max-width:480px){
+	
+#image-slider{
+	box-shadow:0 0 8px 2px rgba(0,0,0,2);
+	text-align:center;
+	width:80%;
+	margin:0 auto 0 auto;}
+	
+#image-slider img{
+	max-width:100%;
+
+	}
+
+
+}
